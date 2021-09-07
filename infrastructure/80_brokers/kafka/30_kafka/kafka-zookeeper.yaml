@@ -431,15 +431,15 @@ spec:
             feature: kafka
             group: exporters
             component: kafka-exporter
-        securityContext:
-          runAsNonRoot: true
+     #   securityContext:
+      #    runAsNonRoot: true
           # runAsUser: 1001
           # runAsGroup: 1001
           # fsGroup: 1001
-      container:
-        securityContext:
-          runAsNonRoot: true
+      #container:
+       # securityContext:
+        #  runAsNonRoot: true
           # runAsUser: 1001
           # runAsGroup: 1001
           # fsGroup: 1001
-          readOnlyRootFilesystem: false
+         # readOnlyRootFilesystem: false
